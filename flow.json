@@ -13,11 +13,13 @@
 				"testnet": "0x9a0766d93b6608b7"
 			}
 		},
-		"SherryToken": "./cadence/contracts/SherryToken.cdc"
+		"SherryToken": "./cadence/contracts/SherryToken.cdc",
+		"HelloWorld": "./cadence/contracts/HelloWorld.cdc",
+		"ExampleNFT": "./cadence/contracts/ExampleNFT.cdc"
 	},
 	"deployments": {
 		"emulator": {
-			"emulator-account": [ "SherryToken" ]
+			"emulator-account": [ "HelloWorld", "ExampleNFT" ]
 		}
 	},
 	"networks": {
